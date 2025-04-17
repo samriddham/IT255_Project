@@ -1,0 +1,319 @@
+{
+  "timestamp": "2024-11-25 19:28:54",
+  "total_processes": 450,
+  "anomaly_count": 39,
+  "anomalies": [
+    {
+      "pid": 956,
+      "name": "trustd",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.14438629150390625,
+      "connections": 0
+    },
+    {
+      "pid": 980,
+      "name": "rapportd",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.15277862548828125,
+      "connections": 2
+    },
+    {
+      "pid": 995,
+      "name": "identityservicesd",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.25348663330078125,
+      "connections": 2
+    },
+    {
+      "pid": 997,
+      "name": "homed",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.330352783203125,
+      "connections": 0
+    },
+    {
+      "pid": 1028,
+      "name": "sharingd",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.220489501953125,
+      "connections": 1
+    },
+    {
+      "pid": 1033,
+      "name": "contactsd",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.12416839599609375,
+      "connections": 0
+    },
+    {
+      "pid": 1044,
+      "name": "assistantd",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.27942657470703125,
+      "connections": 0
+    },
+    {
+      "pid": 1055,
+      "name": "ControlCenter",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.562286376953125,
+      "connections": 4
+    },
+    {
+      "pid": 1106,
+      "name": "corespotlightd",
+      "reason": "Many open files",
+      "cpu_percent": 0,
+      "memory_percent": 0.49686431884765625,
+      "connections": 0
+    },
+    {
+      "pid": 1108,
+      "name": "duetexpertd",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.337982177734375,
+      "connections": 0
+    },
+    {
+      "pid": 1110,
+      "name": "photolibraryd",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.127410888671875,
+      "connections": 0
+    },
+    {
+      "pid": 1130,
+      "name": "suggestd",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.2613067626953125,
+      "connections": 0
+    },
+    {
+      "pid": 1205,
+      "name": "WallpaperSequoiaExtension",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0.1,
+      "memory_percent": 0.17642974853515625,
+      "connections": 0
+    },
+    {
+      "pid": 1224,
+      "name": "Finder",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0.1,
+      "memory_percent": 0.787353515625,
+      "connections": 0
+    },
+    {
+      "pid": 1350,
+      "name": "figma_agent",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.164794921875,
+      "connections": 2
+    },
+    {
+      "pid": 1387,
+      "name": "WeatherWidget",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.27179718017578125,
+      "connections": 0
+    },
+    {
+      "pid": 11932,
+      "name": "Google Chrome",
+      "reason": "Many open files",
+      "cpu_percent": 0,
+      "memory_percent": 3.6014556884765625,
+      "connections": 0
+    },
+    {
+      "pid": 11938,
+      "name": "Google Chrome Helper (GPU)",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 1.1133193969726562,
+      "connections": 0
+    },
+    {
+      "pid": 11939,
+      "name": "Google Chrome Helper",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.8943557739257812,
+      "connections": 13
+    },
+    {
+      "pid": 11940,
+      "name": "Google Chrome Helper",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.2635955810546875,
+      "connections": 0
+    },
+    {
+      "pid": 11959,
+      "name": "Google Chrome Helper (Renderer)",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.5767822265625,
+      "connections": 0
+    },
+    {
+      "pid": 12199,
+      "name": "Google Chrome Helper (Renderer)",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 2.78167724609375,
+      "connections": 0
+    },
+    {
+      "pid": 12222,
+      "name": "Google Chrome Helper (Renderer)",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 1.2788772583007812,
+      "connections": 0
+    },
+    {
+      "pid": 14678,
+      "name": "com.apple.quicklook.ThumbnailsAgent",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 2.906036376953125,
+      "connections": 0
+    },
+    {
+      "pid": 15337,
+      "name": "Google Chrome Helper (Renderer)",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 2.8278350830078125,
+      "connections": 0
+    },
+    {
+      "pid": 15742,
+      "name": "Google Chrome Helper (Renderer)",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 2.0238876342773438,
+      "connections": 0
+    },
+    {
+      "pid": 15763,
+      "name": "Electron",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 1.7938613891601562,
+      "connections": 0
+    },
+    {
+      "pid": 15767,
+      "name": "Code Helper (GPU)",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.722503662109375,
+      "connections": 0
+    },
+    {
+      "pid": 15768,
+      "name": "Code Helper",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.31719207763671875,
+      "connections": 1
+    },
+    {
+      "pid": 15773,
+      "name": "Code Helper (Renderer)",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 4.057502746582031,
+      "connections": 0
+    },
+    {
+      "pid": 15800,
+      "name": "Code Helper",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.92926025390625,
+      "connections": 0
+    },
+    {
+      "pid": 15801,
+      "name": "Code Helper",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.5100250244140625,
+      "connections": 0
+    },
+    {
+      "pid": 15802,
+      "name": "Code Helper (Plugin)",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 2.2541046142578125,
+      "connections": 0
+    },
+    {
+      "pid": 15803,
+      "name": "Code Helper",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0.4,
+      "memory_percent": 0.5550384521484375,
+      "connections": 0
+    },
+    {
+      "pid": 16026,
+      "name": "Python",
+      "reason": "High CPU usage",
+      "cpu_percent": 98.1,
+      "memory_percent": 4.0531158447265625,
+      "connections": 0
+    },
+    {
+      "pid": 16132,
+      "name": "cpptools",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 0.86822509765625,
+      "connections": 0
+    },
+    {
+      "pid": 16141,
+      "name": "cpptools-srv",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 2.8072357177734375,
+      "connections": 0
+    },
+    {
+      "pid": 16188,
+      "name": "Google Chrome Helper (Renderer)",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 1.0160446166992188,
+      "connections": 0
+    },
+    {
+      "pid": 16207,
+      "name": "Google Chrome Helper (Renderer)",
+      "reason": "Unusual behavior pattern",
+      "cpu_percent": 0,
+      "memory_percent": 1.55487060546875,
+      "connections": 0
+    }
+  ]
+}

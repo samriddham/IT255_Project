@@ -1,0 +1,6 @@
+psutil
+PyQt5
+numpy
+matplotlib
+scikit-learn
+pandas

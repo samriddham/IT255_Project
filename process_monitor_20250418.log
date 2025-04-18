@@ -1,3 +1,6 @@
 2025-04-18 03:34:18,327 - INFO - Updated process history. Current size: 1
 2025-04-18 03:34:20,960 - INFO - Successfully trained autoencoder-based anomaly detection model
 2025-04-18 03:34:37,441 - INFO - Detected 14 anomalous processes
+2025-04-18 13:00:35,010 - INFO - Updated process history. Current size: 1
+2025-04-18 13:00:41,140 - INFO - Successfully trained autoencoder-based anomaly detection model
+2025-04-18 13:01:23,442 - INFO - Detected 15 anomalous processes

@@ -169,11 +169,11 @@ class AdvancedAnomalyDetector:
 
         for proc in anomalies:
             report['anomalies'].append({
-                'pid': proc['pid'],
-                'name': proc['name'],
+                'id': proc['pid'],
+                'sensor': proc['name'],
                 'reason': proc['anomaly_reason'],
-                'cpu_percent': proc['cpu_percent'],
-                'memory_percent': proc['memory_percent'],
+                'sensor_01': proc['cpu_percent'],
+                'sensor_02': proc['memory_percent'],
                 'connections': proc['num_connections']
             })
 

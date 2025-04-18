@@ -5,7 +5,7 @@ import platform
 from datetime import datetime
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, 
                             QTableWidget, QTableWidgetItem, QPushButton, QLabel,
-                            QHeaderView, QHBoxLayout, QMessageBox)
+                            QHeaderView, QHBoxLayout, QMessageBox, QSizePolicy)
 from PyQt5.QtCore import QTimer, Qt, QRunnable, QThreadPool, pyqtSlot, QObject, pyqtSignal
 from PyQt5.QtGui import QColor
 import matplotlib.pyplot as plt
@@ -85,9 +85,10 @@ class ProcessMonitorUI(QMainWindow):
         self.process_table.setHorizontalHeaderLabels([
             "ID", "Sensor", "Station", "Sensor_01", "Sensor_02", "Status", "Date Online"
         ])
-        self.process_table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeToContents)
+        self.process_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
         self.process_table.setAlternatingRowColors(True)
         self.process_table.setSortingEnabled(True)
+        self.process_table.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         self.process_table.setStyleSheet("""
             QTableWidget {
                 gridline-color: #d3d3d3;
@@ -222,7 +223,7 @@ class ProcessMonitorUI(QMainWindow):
         self.cpu_ax.clear()
         self.mem_ax.clear()
 
-        self.cpu_ax.plot(self.time_points[:-10] if len(self.time_points)>10 else self.time_points, self.cpu_history[:-10] if len(self.cpu_history)>10 else self.cpu_history, 'b-', label='Sensor_01')
+        self.cpu_ax.plot(self.time_points, self.cpu_history, 'b-', label='Sensor_01')
         self.cpu_ax.set_ylabel('Sensor_01 (%)')
         self.cpu_ax.set_title('Sensor_01 Readout')
         self.cpu_ax.grid(True)
@@ -289,20 +290,20 @@ if __name__ == '__main__':
         }
 
         QPushButton#refresh_button {
-            background-color: #28a745;  /* Green */
+            background-color: #28a745;
         }
 
         QPushButton#auto_refresh_button {
-            background-color: #007bff;  /* Blue */
+            background-color: #007bff;
         }
 
         QPushButton#detect_anomalies_button {
-            background-color: #ffc107;  /* Yellow */
+            background-color: #ffc107;
             color: black;
         }
 
         QPushButton#save_snapshot_button {
-            background-color: #dc3545;  /* Red */
+            background-color: #dc3545;
         }
 
         QPushButton:hover {
